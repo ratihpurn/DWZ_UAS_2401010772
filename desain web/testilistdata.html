@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testi List Data</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #711357;
+        }
+        .testimonial {
+            border-radius: 10px;
+            background-color: #e321ac;
+            padding: 20px;
+            box-shadow: 0px 10px 30px rgba(88, 4, 46, 0.1);
+            margin: 15px 0;
+        }
+        .testimonial h3 {
+            color: #a01b8c;
+        }
+        .testimonial p {
+            font-style: italic;
+        }
+        .testimonial img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .testi-card {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .testi-card h5 {
+            margin: 0;
+            font-size: 1.25rem;
+        }
+        .badge {
+            background-color: #d2359b;
+            color: rgb(206, 24, 161);
+            margin-left: 10px;
+        }
+        .container {
+            max-width: 20px;
+        }
+
+       AQSWZE
+    </style>
+</head>
+<body>
+    <div class="container">
+
+
+    </button>
+    </div>
+    
+    </div>
+    </div>
+        </div>
+        
+        <div class="container">
+            <span class="text-mute" style="clear:both"></span>
+            <div class="row">
+                <a name="project"></a>
+                <div class="produklist">
+                </div>
+            </div>
+        </div>
+    
+        <div class="card" style="width: 15.5rem; float:left; margin: 15px;">
+           
+                <img src="https://th.bing.com/th/id/OIP.4YelBkTR6riuNiVlbSXn0gHaHa?w=640&h=640&rs=1&pid=ImgDetMain card-img-top produkitem" alt="PARFUM" <div class="card-body">
+                    <h5 class="card-title">GUCCI</h5>
+                    <p class="card-text">Rp.40.000.000</p>
+                    <a href= class="btn btn-warning">Detail</a>
+                    <a href= class="btn btn-primary"Order</a>
+                </div>
+            </button>
+
+            <div class="card" style="width: 15.5rem; float:left; margin: 15px;">
+           
+           <img src="https://png.pngtree.com/png-vector/20231016/ourlarge/pngtree-perfume-bottle-glass-bottle-for-perfume-and-perfumery-vector-illustration-png-image_10166547.png" alt="PARFUM" <div class="card-body">
+               <h5 class="card-title">212 LADY</h5>
+               <p class="card-text">Rp.1.000.000</p>
+               <a href= class="btn btn-warning">Detail</a>
+               <a href= class="btn btn-primary"Order</a>
+           </div>
+       </button>
+
+        
+            <div class="card" style="width: 15.5rem; float:left; margin: 15px;">
+
+                <img src="https://th.bing.com/th/id/OIP.hJO8Q13_FuyXYUCuhiMkQwHaHa?w=640&h=640&rs=1&pid=ImgDetMain" card-img-top produkitem" alt="PARFUM" <div class="card-body">
+                    <h5 class="card-title">PARFUM JOMALUNE</h5>
+                    <p class="card-text">Rp.2.000.000</p>
+                    <a href= class="btn btn-warning">Detail</a>
+                    <a href= class="btn btn-primary">order</a>
+                </div>
+                </button>
+                <div class="card" style="width: 15.5rem; float:left; margin: 15px;">
+
+                <img src="https://png.pngtree.com/png-clipart/20230421/ourlarge/pngtree-lady-rose-perfume-png-image_6721952.png"card-img-top produkitem" alt="PARFUM" <div class="card-body">
+                    <h5 class="card-title">CHANEL;</h5>
+                    <p class="card-text">Rp.4.000.000</p>
+                    <a href= class="btn btn-warning">Detail</a>
+                    <a href= class="btn btn-primary">order</a>
+                </div>
+            </button>
+            
+   
+   
+   
+   
+   
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Testimoni Pengguna</h1>
+
+        <div id="testimoniList" class="row">
+        </div>
+
+        <div class="text-center mt-5">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#testimonialModal">Tambah Testimoni Baru</button>
+        </div>
+
+        <div class="modal fade" id="testimonialModal" tabindex="-1" role="dialog" aria-labelledby="testimonialModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="testimonialModalLabel">Tambah Testimoni Baru</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="testimonialForm">
+                            <div class="form-group">
+                                <label for="username">Nama Pengguna</label>
+                                <input type="text" class="form-control" id="username" placeholder="Masukkan nama kamu">
+                            </div>
+                            <div class="form-group">
+                                <label for="testimonial">Testimoni</label>
+                                <textarea class="form-control" id="testimonial" rows="3" placeholder="Masukkan testimoni kamu"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Kirim Testimoni</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const testimoniList = document.getElementById('testimoniList');
+
+            
+            fetch('https://apimhstiki.ptov.my.id/testimonials')
+                .then(response => response.json())
+                .then(data => {
+                    data.forEach(testimoni => {
+                        const div = document.createElement('div');
+                        div.classList.add('col-md-4');
+                        div.innerHTML = `
+                            <div class="testimonial">
+                                <div class="testi-card">
+                                    <img src="https://via.placeholder.com/80" alt="User" />
+                                    <div>
+                                        <h5>${testimoni.name} <span class="badge">New</span></h5>
+                                        <p>${testimoni.message}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        testimoniList.appendChild(div);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+
+           
+            const form = document.getElementById('testimonialForm');
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                const username = document.getElementById('username').value;
+                const testimonial = document.getElementById('testimonial').value;
+                
+                if (username && testimonial) {
+                    
+                    alert('Testimoni berhasil dikirim!');
+                    
+                    form.reset();
+                    $('#testimonialModal').modal('hide');
+                } else {
+                    alert('Nama dan Testimoni wajib diisi!');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
